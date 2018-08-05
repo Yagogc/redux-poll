@@ -2,7 +2,7 @@ export const RECEIVE_POLLS = "RECEIVE_POLLS";
 
 export const receivePolls = polls => {
   return {
-    RECEIVE_POLLS,
+    type: RECEIVE_POLLS,
     polls
   };
 };

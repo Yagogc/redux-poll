@@ -5,7 +5,7 @@ export default (state = {}, action) => {
     case RECEIVE_USERS:
       return {
         ...state,
-        ...action.polls
+        ...action.users
       };
     default:
       return state;
